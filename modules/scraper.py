@@ -38,7 +38,7 @@ class Scraper(object):
 
         # Authenticate
         username_input = self.driver.find_element_by_xpath(
-            '//input[@placeholder="Username"]'
+            '//input[@placeholder="Phone number, username, or email"]'
         )
         password_input = self.driver.find_element_by_xpath(
             '//input[@placeholder="Password"]'
